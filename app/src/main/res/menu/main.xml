@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:context=".activities.activity_water_tracker">
+    <item
+        android:id="@+id/action_calendar"
+        android:orderInCategory="100"
+        android:icon="@drawable/icons8_today_50"
+        app:showAsAction="always"
+        android:title="@string/calendar" >
+        <menu>
+            <item
+                android:title="Today"
+                android:id="@+id/Ontoday"
+                android:orderInCategory="100"
+                />
+            <item
+                android:title="Custom Date"
+                android:id="@+id/Oncustom"
+                android:orderInCategory="100"
+                />
+            <item
+                android:title="All Record"
+                android:id="@+id/OnallDays"
+                android:orderInCategory="100"
+                />
+        </menu>
+
+    </item>
+
+</menu>

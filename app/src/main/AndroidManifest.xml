@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.watertracker" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icons8_water_glass_simple_64"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icons8_water_glass_64"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".PastData" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WaterTracker" >
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<category android:name="android.intent.category.DEFAULT" /> -->
+            </intent-filter>
+        </activity>
+        <!-- activity android:name=".Tracker">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constaint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context="com.example.android.watertracker.Tracker"
+    android:layout_margin="8dp">
+
+    <Button
+        android:id="@+id/watertracker"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/todays_s_count"
+        android:textAllCaps="true"
+        android:layout_marginBottom="2dp"/>
+
+    <Button
+        android:id="@+id/past"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/see_my_chart"
+        android:textAllCaps="true"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+</android.support.v7.widget.LinearLayoutCompat>

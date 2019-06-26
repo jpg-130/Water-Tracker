@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Water Tracker</string>
+    <string name="see_my_chart">See my chart</string>
+    <string name="todays_s_count">Today\'s Track</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="increase_intake">Increase Intake</string>
+    <string name="calendar">calendar</string>
+</resources>
