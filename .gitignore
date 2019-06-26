@@ -1,6 +1,7 @@
 *.iml
 *.gradle
 *.idea
+WaterTracker.iml.orig
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
@@ -8,3 +9,5 @@
 /build
 /captures
 .externalNativeBuild
+WaterTracker.iml
+local.properties.orig
